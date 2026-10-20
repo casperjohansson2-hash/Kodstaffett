@@ -1,0 +1,15 @@
+C:\Kodstaffett\Karaktärsgeneratorn\bin\Debug\net8.0\Karaktärsgeneratorn.exe
+C:\Kodstaffett\Karaktärsgeneratorn\bin\Debug\net8.0\Karaktärsgeneratorn.deps.json
+C:\Kodstaffett\Karaktärsgeneratorn\bin\Debug\net8.0\Karaktärsgeneratorn.runtimeconfig.json
+C:\Kodstaffett\Karaktärsgeneratorn\bin\Debug\net8.0\Karaktärsgeneratorn.dll
+C:\Kodstaffett\Karaktärsgeneratorn\bin\Debug\net8.0\Karaktärsgeneratorn.pdb
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.AssemblyInfoInputs.cache
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.AssemblyInfo.cs
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.csproj.CoreCompileInputs.cache
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.sourcelink.json
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.dll
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\refint\Karaktärsgeneratorn.dll
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.pdb
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\Karaktärsgeneratorn.genruntimeconfig.cache
+C:\Kodstaffett\Karaktärsgeneratorn\obj\Debug\net8.0\ref\Karaktärsgeneratorn.dll
