@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Karaktärsgeneratorn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21720eb3837b92ebbe36c0a5ff10c53eced1c3ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c30c5a4ba9de67b617eb3d72513884306649f0bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Karaktärsgeneratorn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Karaktärsgeneratorn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,10 +4,11 @@
     {
         Console.WriteLine("=== KARAKTÄRSGENERATOR ===");
 
-        Console.Write("Vad heter din karaktär? ");
-        string namn = Console.ReadLine();
+        Console.Write("Vad heter din karaktär? "); 
+        string namn = Console.ReadLine(); //Deklarerar variabler
         int val = 0;
-
+        bool ickeGodkänd = true;
+                                                    //Skriver ut listan av karaktärer man får välja i konsolen
         Console.WriteLine("Välj karaktärstyp:");
         Console.WriteLine("1. Krigare");
         Console.WriteLine("2. Magiker");
@@ -16,19 +17,22 @@
         Console.WriteLine("5. Alchemist");
         Console.WriteLine("6. Egen");
 
-        Console.Write("Ditt val: ");
-        try 
-        { 
-            val = Convert.ToInt32(Console.ReadLine()); 
-        }
-        catch
+        Console.Write("Ditt val: ");//Låter användaren välja sin typ, och kommer använda sig av catch ifall det finns risk för en krasch
+        while (ickeGodkänd)
         {
-            Console.WriteLine("Var god och skriv nummer 1, 2 eller 3.");
+            try
+            {
+                val = Convert.ToInt32(Console.ReadLine());
+                ickeGodkänd = false;
+            }
+            catch
+            {
+                Console.WriteLine("Var god och skriv nummer 1, 2 eller 3.");
+            }
         }
+        string karaktärstyp = "";//Om användaren väljer 6, alltså vill skriva en egen ras, så deklarerar vi en variabel här för användaren att fylla i
 
-        string karaktärstyp = "";
-
-        if (val == 1)
+        if (val == 1)           //Omvandlar användaren val i siffror, till den motsvarande typen
         {
             karaktärstyp = "Krigare";
         }
@@ -53,21 +57,21 @@
             
             try 
             {
-                Console.WriteLine("Vänligen skriv vilken karaktärtyp du vill vara:");
+                Console.WriteLine("Vänligen skriv vilken karaktärtyp du vill vara:"); //Skriver och läser av vilken typ som användaren valt att skriva själv
                 karaktärstyp = Console.ReadLine();
             }
             catch 
             {
-                Console.WriteLine("Ej tillåtet.");
+                Console.WriteLine("Ej tillåtet."); //Stannar användaren ifall programmet riskerar att krascha
             }
         }
         else
         {
 
-            karaktärstyp = "Okänd";
+            karaktärstyp = "Okänd"; //Om användaren på något vänster lyckas ta sig förbi den första catchen, så ersätts karaktärstypen med "Okänd"
         }
 
-        Console.WriteLine();
+        Console.WriteLine(); // Skriver ut resultatet till användaren i konsolen
         Console.WriteLine("=== DIN KARAKTÄR ===");
         Console.WriteLine("Namn: " + namn);
         Console.WriteLine("Typ: " + karaktärstyp);
